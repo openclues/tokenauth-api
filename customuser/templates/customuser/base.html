@@ -1,0 +1,20 @@
+<!-- base.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Your Django Project{% endblock %}</title>
+    <!-- Add the Materialize CSS link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+    {% block content %}
+    <!-- Content goes here -->
+    {% endblock %}
+
+    <!-- Add the Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    {% block extra_js %}{% endblock %}
+</body>
+</html>

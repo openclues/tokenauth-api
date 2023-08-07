@@ -1,5 +1,6 @@
 # TokenAuthProject
 
+
 TokenAuthProject is a Django project that provides token authentication, login, and other features. It is designed to be easy to use and customizable to suit your specific needs.
 
 ## Getting Started
